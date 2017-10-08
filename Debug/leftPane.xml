@@ -51,15 +51,15 @@
             </ListContainerElement>
             <ListContainerElement height="105">
                 <!-- <HorizontalLayout><VerticalLayout /><HorizontalLayout width="100" padding="0,5,0,5"><Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" /><Label name="itemText3" text="垃圾箱" padding="10,5,0,2" /></HorizontalLayout><VerticalLayout /></HorizontalLayout> -->
-                <TreeView name="leftTree">
-                    <TreeNode>
-                        <HorizontalLayout>
+                <TreeView name="leftTree" width="250" bkcolor="FFDDEEEE" visiblefolderbtn="false" visiblecheckbtn="false">
+                    <TreeNode height="35"  width="250">
+                        <HorizontalLayout  bkcolor="FFDDDDDD" width="250">
                             <VerticalLayout />
                             <HorizontalLayout width="100" padding="0,5,0,5">
                                 <Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
                                 <Label name="itemText3" text="垃圾箱" padding="10,5,0,2" />
                             </HorizontalLayout>
-                            <VerticalLayout />
+                            <VerticalLayout  />
                         </HorizontalLayout>
                     </TreeNode>
                 </TreeView>
