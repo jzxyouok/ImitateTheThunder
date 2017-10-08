@@ -3,11 +3,17 @@
 <Window size="250,650">
     <Font id="0" name="leftPaneItemFont" size="15" bold="true" />
     <VerticalLayout bkcolor="FF3B4751">
-        <HorizontalLayout height="70">
-            <Control name="headGif" width="70" />
-            <Control name="loginGif" />
-        </HorizontalLayout>
-        <Control name="splitLine" height="20" />
+        <VerticalLayout height="90">
+            <HorizontalLayout height="70" padding="25,10,25,10">
+                <Control name="headGif" width="70" bkimage="img/head.png" padding="10,0,10,0" />
+                <VerticalLayout width="100" padding="10,0,0,0">
+                    <HorizontalLayout />
+                    <Label name="loginGif" height="20" text="点击登录" />
+                    <HorizontalLayout />
+                </VerticalLayout>
+            </HorizontalLayout>
+        </VerticalLayout>
+        <Label name="splitLine" height="20"  padding="30,0,30,10" text="___________________________________"/>
         <List name="optionPane" header="hidden" itemfont="0" itemtextcolor="FF8DA09A" itemselectedtextcolor="FF51A599" itemhottextcolor="FFFEFEFE" itemhotbkcolor="FF313A42" itemselectedbkcolor="FF252C32">
             <ListContainerElement height="35">
                 <HorizontalLayout>
@@ -49,8 +55,8 @@
                     <VerticalLayout />
                 </HorizontalLayout>
             </ListContainerElement>
+            <!-- 下拉部分 -->
             <ListContainerElement height="105">
-                <!-- <HorizontalLayout><VerticalLayout /><HorizontalLayout width="100" padding="0,5,0,5"><Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" /><Label name="itemText3" text="垃圾箱" padding="10,5,0,2" /></HorizontalLayout><VerticalLayout /></HorizontalLayout> -->
                 <TreeView name="leftTree" width="250" visiblefolderbtn="false" visiblecheckbtn="false">
                     <TreeNode height="35" width="250">
                         <HorizontalLayout width="250">
