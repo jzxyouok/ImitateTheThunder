@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,100">
+    <ListContainerElement name="my_list_node" height="100" minheight="100">
+        <HorizontalLayout  inset="20,20,20,20">
+            <!-- 文件类型图标 -->
+            <VerticalLayout width="100" >
+                <Control name="filetypeImage" width = "60" height = "60"  bkimage="image.png" />
+            </VerticalLayout>
+           
+            <VerticalLayout >
+                 <!-- 文件名称和时间  -->
+                <HorizontalLayout height="25">
+                    <VerticalLayout>
+                        <Label name="fileName" height="25" text="fileName" />
+                    </VerticalLayout>
+                    <Label name="fileTime" height="25" width="400" text="fileTime" />
+                </HorizontalLayout>
+
+                <HorizontalLayout height="10" />
+                <Label name="fileSize" height="25" width="200" text="fileSize" />
+            </VerticalLayout>
+        </HorizontalLayout>
+    </ListContainerElement>
+</Window>

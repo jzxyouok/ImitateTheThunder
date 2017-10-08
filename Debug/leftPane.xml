@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- 整体布局结构 -->
+<Window size="250,650">
+    <Font id="0" name="leftPaneItemFont" size="15" bold="true" />
+    <VerticalLayout bkcolor="FF3B4751">
+        <HorizontalLayout height="70">
+            <Control name="headGif" width="70" />
+            <Control name="loginGif" />
+        </HorizontalLayout>
+        <Control name="splitLine" height="20" />
+        <List name="optionPane" header="hidden" itemfont="0" itemtextcolor="FF8DA09A" itemselectedtextcolor="FF51A599" itemhottextcolor="FFFEFEFE" itemhotbkcolor="FF313A42" itemselectedbkcolor="FF252C32">
+            <ListContainerElement height="35">
+                <HorizontalLayout>
+                    <VerticalLayout />
+                    <HorizontalLayout width="100" padding="0,5,0,5">
+                        <Control name="itemImage1" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
+                        <Label name="itemText1" text="正在下载" padding="10,5,0,2" />
+                    </HorizontalLayout>
+                    <VerticalLayout />
+                </HorizontalLayout>
+            </ListContainerElement>
+            <ListContainerElement height="35">
+                <HorizontalLayout>
+                    <VerticalLayout />
+                    <HorizontalLayout width="100" padding="0,5,0,5">
+                        <Control name="itemImage2" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
+                        <Label name="itemText2" text="已完成" padding="10,5,0,2" />
+                    </HorizontalLayout>
+                    <VerticalLayout />
+                </HorizontalLayout>
+            </ListContainerElement>
+            <ListContainerElement height="35">
+                <HorizontalLayout>
+                    <VerticalLayout />
+                    <HorizontalLayout width="100" padding="0,5,0,5">
+                        <Control name="itemImage3" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
+                        <Label name="itemText3" text="私人空间" padding="10,5,0,2" />
+                    </HorizontalLayout>
+                    <VerticalLayout />
+                </HorizontalLayout>
+            </ListContainerElement>
+            <ListContainerElement height="35">
+                <HorizontalLayout>
+                    <VerticalLayout />
+                    <HorizontalLayout width="100" padding="0,5,0,5">
+                        <Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
+                        <Label name="itemText3" text="垃圾箱" padding="10,5,0,2" />
+                    </HorizontalLayout>
+                    <VerticalLayout />
+                </HorizontalLayout>
+            </ListContainerElement>
+            <ListContainerElement height="105">
+                <!-- <HorizontalLayout><VerticalLayout /><HorizontalLayout width="100" padding="0,5,0,5"><Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" /><Label name="itemText3" text="垃圾箱" padding="10,5,0,2" /></HorizontalLayout><VerticalLayout /></HorizontalLayout> -->
+                <TreeView name="leftTree">
+                    <TreeNode>
+                        <HorizontalLayout>
+                            <VerticalLayout />
+                            <HorizontalLayout width="100" padding="0,5,0,5">
+                                <Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
+                                <Label name="itemText3" text="垃圾箱" padding="10,5,0,2" />
+                            </HorizontalLayout>
+                            <VerticalLayout />
+                        </HorizontalLayout>
+                    </TreeNode>
+                </TreeView>
+            </ListContainerElement>
+        </List>
+        <HorizontalLayout height="40" inset="0,0,0,20">
+            <VerticalLayout width="100">
+                <HorizontalLayout padding="20,0,20,0">
+                    <Control name="itemImage10" width="20" height="20" bkimage="file='img/radio_un.png' dest='0,0,20,20'" />
+                    <Label name="itemText10" text="应用" padding="10,2,0,0" />
+                </HorizontalLayout>
+            </VerticalLayout>
+            <VerticalLayout width="5">
+                <Label text="|" height="20" />
+            </VerticalLayout>
+            <VerticalLayout width="115">
+                <HorizontalLayout padding="20,0,20,0">
+                    <Control name="itemImage10" width="20" height="20" bkimage="file='img/radio_un.png' dest='0,0,20,20'" />
+                    <Label name="itemText10" text="消息中心" padding="2,2,0,0" />
+                </HorizontalLayout>
+            </VerticalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

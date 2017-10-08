@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- 整体布局结构 -->
+<Window size="750,80">
+    <VerticalLayout bkcolor="F8F8F8F8">
+        <HorizontalLayout height="30">
+            <VerticalLayout />
+            <VerticalLayout width="77">
+                <!-- 右边三个控件所占的宽度-->
+                <Button name="minbtn" tooltip="最小化" float="true" pos="0,5,22,24" width="23" normalimage=" file='SysBtn\MinNormal.bmp' " hotimage=" file='SysBtn\MinFocus.bmp' " pushedimage=" file='SysBtn\MinFocus.bmp' "/>
+                <Button name="maxbtn" tooltip="最大化" float="true" pos="22,5,44,24" width="23" normalimage=" file='SysBtn\MaxNormal.bmp' " hotimage=" file='SysBtn\MaxFocus.bmp' " pushedimage=" file='SysBtn\MaxFocus.bmp' " />
+                <Button name="restorebtn" visible="false" tooltip="还原" float="true" pos="22,5,44,24" width="23" normalimage=" file='SysBtn\StoreNormal.bmp' " hotimage=" file='SysBtn\StoreFocus.bmp' " pushedimage=" file='SysBtn\StoreFocus.bmp' " />
+                <Button name="closebtn" tooltip="关闭" float="true" pos="44,5,74,24" width="28" normalimage=" file='SysBtn\CloseNormal.bmp' " hotimage=" file='SysBtn\CloseFocus.bmp' " pushedimage=" file='SysBtn\CloseFocus.bmp' "/>
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout height="50"></HorizontalLayout>
+    </VerticalLayout>
+</Window>

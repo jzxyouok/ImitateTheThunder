@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,120">
+    <ListContainerElement name="my_list_node_focus" height="120">
+        <HorizontalLayout >
+            <!-- 内容的边界 -->
+            <HorizontalLayout padding="20,15,20,15">
+                <VerticalLayout>
+                    <!-- 第一行 -->
+                    <HorizontalLayout height="50">
+                        <!-- 第一列 图标 -->
+                        <VerticalLayout width="50">
+                            <Control name="filetypeImage" width = "40" height = "40" bkimage="image.png" padding="5,5,5,5" />
+                        </VerticalLayout>
+                        <!-- 第二列 文件名 大小 进度条 时间 -->
+                        <VerticalLayout>
+                            <!-- 1 文件名 进度条  -->
+                            <HorizontalLayout height="25">
+                                <VerticalLayout padding="5,5,0,2">
+                                    <Label name="fileName" text="fileName" height="15" valign="center"/>
+                                </VerticalLayout>
+                                <VerticalLayout />
+                                <VerticalLayout width="100" padding="0,5,0,2">
+                                    <Progress name="filePreogress" text="30.2%" height="15" align="left" valign="center" />
+                                </VerticalLayout>
+                            </HorizontalLayout>
+                            <!-- 2 大小 时间 -->
+                            <HorizontalLayout height="25">
+                                <VerticalLayout padding="5,2,0,2">
+                                    <Label name="fileSzie" text="fileSzie" height="15" valign="center"/>
+                                </VerticalLayout>
+                                <VerticalLayout />
+                                <VerticalLayout width="50" padding="0,2,0,2">
+                                    <Label name="fileTime" text="time" height="15" align="left" valign="center" />
+                                </VerticalLayout>
+                                <VerticalLayout width="50" padding="0,2,0,2">
+                                    <Label name="fileSource" text="source" height="15" align="right" valign="center" />
+                                </VerticalLayout>
+                            </HorizontalLayout>
+                        </VerticalLayout>
+                        <!-- 第三列 下载速度 -->
+                        <VerticalLayout width="100">
+                            <HorizontalLayout valign="center" align="left" padding="0,17,0,17">
+                                <Label name="fileSpeed" text="fileSpeed" height="15" align="left" valign="center" padding="20,0,0,0" />
+                            </HorizontalLayout>
+                        </VerticalLayout>
+                    </HorizontalLayout>
+                    <!-- 第二行 -->
+                    <HorizontalLayout height="20">
+                        <VerticalLayout width="50" />
+                        <VerticalLayout>
+                            <HorizontalLayout height="15">
+                                <Control name="circle1" height="15" width="15" bkimage="circle.png" padding="1,1,5,1" />
+                                <Label name="text1" height="15" text="高速通道可大幅提高下载速度" align="left" valign="center" />
+                            </HorizontalLayout>
+                        </VerticalLayout>
+                        <VerticalLayout width="100">
+                            <Button name="btnVip" text="高速通道加速" height="15" align="left" valign="center" />
+                        </VerticalLayout>
+                        <VerticalLayout width="100" />
+                    </HorizontalLayout>
+                    <!-- 第三行 -->
+                    <HorizontalLayout height="20">
+                        <VerticalLayout width="50" />
+                        <VerticalLayout>
+                            <HorizontalLayout>
+                                <Control name="circle2" height="15" width="15" bkimage="circle.png" padding="1,1,5,1" />
+                                <Label name="text2" height="15" text="离线下载可代你挂机" align="left" valign="center" />
+                            </HorizontalLayout>
+                        </VerticalLayout>
+                        <VerticalLayout width="100">
+                            <Button name="btnDownload" text="离线下载加速" height="15" align="left" valign="center" />
+                        </VerticalLayout>
+                        <VerticalLayout width="100" />
+                    </HorizontalLayout>
+                </VerticalLayout>
+                <!-- 最后的方向图片 -->
+                <VerticalLayout width="150">
+                     <Control name="fileInfoImage" width = "40" height = "40" bkimage="image.png" padding="100,25,10,25" />
+                </VerticalLayout>
+            </HorizontalLayout>
+        </HorizontalLayout>
+    </ListContainerElement>
+</Window>

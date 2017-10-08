@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Container name="ContainerUI1" width="400" height="50" bkcolor="#FFFFFFFF">
+        <Label name="LabelUI1" float="true" pos="13,15,0,0" width="115" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Combo normalimage="Combo_nor.bmp" pushedimage="Combo_over.bmp" dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" name="ComboUI1" float="true" pos="137,16,0,0" width="147" height="21" />
+        <Button name="lstDelButton" text="Delete" float="true" pos="300,17,0,0" width="77" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.bmp" hotimage="button_over.bmp" pushedimage="button_down.bmp" />
+    </Container>
+</Window>

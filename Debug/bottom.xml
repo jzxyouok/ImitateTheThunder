@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- 整体布局结构 -->
+<Window size="750,40">
+    <HorizontalLayout bkcolor="FFFFFFFF" bordersize="2" >
+        
+    </HorizontalLayout>
+</Window>

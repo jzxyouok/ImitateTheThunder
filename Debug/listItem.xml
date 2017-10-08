@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <ListContainerElement name="display_camera_preset_item" height="38" minheight="38">
+    <HorizontalLayout>
+      <Control width="20"/>
+      <Label name="number_lab" width="50" text="136" textcolor="FF6B6B6B" />
+      <VerticalLayout >
+        <HorizontalLayout />
+        <Label name="name_lab" width="156" text="test" align="left" textpadding="10,4,0,0" textcolor="#FF000000" disabledtextcolor="#FF808080" />
+        <HorizontalLayout />
+      </VerticalLayout>
+    </HorizontalLayout>
+  </ListContainerElement>
+</Window>
