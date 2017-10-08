@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1024,768">
+    <Container enabled="true" width="400" height="400">
+        <Button float="true" pos="4,4,0,0" random="true" enabled="true" width="547" height="339" bkimage="a1.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="a2.png" />
+    </Container>
+</Window>
