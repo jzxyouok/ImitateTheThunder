@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <!-- 整体布局结构 -->
 <Window size="750,80">
-    <VerticalLayout bkcolor="F8F8F8F8">
+    <VerticalLayout bkcolor="F8F8F8F8" bordersize="0,0,0,2" bordercolor="FF000000">
         <HorizontalLayout height="30">
             <VerticalLayout />
             <VerticalLayout width="77">
@@ -12,6 +12,11 @@
                 <Button name="closebtn" tooltip="关闭" float="true" pos="44,5,74,24" width="28" normalimage=" file='SysBtn\CloseNormal.bmp' " hotimage=" file='SysBtn\CloseFocus.bmp' " pushedimage=" file='SysBtn\CloseFocus.bmp' "/>
             </VerticalLayout>
         </HorizontalLayout>
-        <HorizontalLayout height="50"></HorizontalLayout>
+        <HorizontalLayout padding="10,10,0,9" bkcolor="FFEEEEEE">
+            <Button nama="newDownload" width="70" text="新建" bkimage="file='img/Icon_4.ico' dest='0,0,30,30'" align="right"  />
+        
+        </HorizontalLayout>
+
+        <HorizontalLayout height="1" bkcolor="FFC7C7C7" />
     </VerticalLayout>
 </Window>
