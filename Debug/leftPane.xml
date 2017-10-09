@@ -13,10 +13,11 @@
                 </VerticalLayout>
             </HorizontalLayout>
         </VerticalLayout>
-        <Label name="splitLine" height="20"  padding="30,0,30,10" text="___________________________________"/>
-        <List name="optionPane" header="hidden" itemfont="0" itemtextcolor="FF8DA09A" itemselectedtextcolor="FF51A599" itemhottextcolor="FFFEFEFE" itemhotbkcolor="FF313A42" itemselectedbkcolor="FF252C32">
-            <ListContainerElement height="35">
-                <HorizontalLayout>
+        <Label name="splitLine" height="20" padding="30,0,30,10" text="___________________________________"/>
+        <!-- <List name="optionPane" header="hidden" hieght="140" itemfont="0" itemtextcolor="FF8DA09A" itemselectedtextcolor="FF51A599" itemhottextcolor="FFFEFEFE" itemhotbkcolor="FF313A42" itemselectedbkcolor="FF252C32"> -->
+        <TreeView name="leftTree" width="250" visiblefolderbtn="false" visiblecheckbtn="false" itemfont="0" itemtextcolor="FF8DA09A" itemselectedtextcolor="FF51A599" itemhottextcolor="FFFEFEFE" itemhotbkcolor="FF313A42" itemselectedbkcolor="FF252C32">
+            <TreeNode height="35" width="250">
+                <HorizontalLayout width="250">
                     <VerticalLayout />
                     <HorizontalLayout width="100" padding="0,5,0,5">
                         <Control name="itemImage1" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
@@ -24,9 +25,9 @@
                     </HorizontalLayout>
                     <VerticalLayout />
                 </HorizontalLayout>
-            </ListContainerElement>
-            <ListContainerElement height="35">
-                <HorizontalLayout>
+            </TreeNode>
+            <TreeNode height="35" width="250">
+                <HorizontalLayout width="250">
                     <VerticalLayout />
                     <HorizontalLayout width="100" padding="0,5,0,5">
                         <Control name="itemImage2" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
@@ -34,9 +35,9 @@
                     </HorizontalLayout>
                     <VerticalLayout />
                 </HorizontalLayout>
-            </ListContainerElement>
-            <ListContainerElement height="35">
-                <HorizontalLayout>
+            </TreeNode>
+            <TreeNode height="35" width="250">
+                <HorizontalLayout width="250">
                     <VerticalLayout />
                     <HorizontalLayout width="100" padding="0,5,0,5">
                         <Control name="itemImage3" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
@@ -44,53 +45,50 @@
                     </HorizontalLayout>
                     <VerticalLayout />
                 </HorizontalLayout>
-            </ListContainerElement>
-            <ListContainerElement height="35">
-                <HorizontalLayout>
+            </TreeNode>
+            <TreeNode height="35" width="250">
+                <HorizontalLayout width="250">
                     <VerticalLayout />
                     <HorizontalLayout width="100" padding="0,5,0,5">
                         <Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
-                        <Label name="itemText3" text="垃圾箱" padding="10,5,0,2" />
+                        <Label name="itemText4" text="垃圾箱" padding="10,5,0,2" />
                     </HorizontalLayout>
                     <VerticalLayout />
                 </HorizontalLayout>
-            </ListContainerElement>
-            <!-- 下拉部分 -->
-            <ListContainerElement height="105">
-                <TreeView name="leftTree" width="250" visiblefolderbtn="false" visiblecheckbtn="false">
-                    <TreeNode height="35" width="250">
-                        <HorizontalLayout width="250">
-                            <VerticalLayout />
-                            <HorizontalLayout width="100" padding="0,5,0,5">
-                                <Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
-                                <Label name="itemText3" text="离线空间" padding="10,5,0,2" />
-                            </HorizontalLayout>
-                            <VerticalLayout  />
+            </TreeNode>
+            <TreeNode width="250" height="35">
+                <HorizontalLayout width="250" height="35">
+                    <VerticalLayout />
+                    <HorizontalLayout width="100" padding="0,5,0,5">
+                        <Control name="itemImage5" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
+                        <Label name="itemText5" text="离线空间" padding="10,5,0,2" />
+                    </HorizontalLayout>
+                    <VerticalLayout  />
+                </HorizontalLayout>
+                <TreeNode height="35">
+                    <HorizontalLayout height="35" width="250" float="true" pos="0,0,250,35">
+                        <VerticalLayout />
+                        <HorizontalLayout width="100" padding="0,5,0,5">
+                            <Control name="itemImage6" width="25"  />
+                            <Label name="itemText6" text="正在离线" padding="10,5,0,2" />
                         </HorizontalLayout>
-                        <TreeNode height="35">
-                            <HorizontalLayout height="35" width="250" float="true" pos="0,0,250,35">
-                                <VerticalLayout />
-                                <HorizontalLayout width="100" padding="0,5,0,5">
-                                    <Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
-                                    <Label name="itemText3" text="正在离线" padding="10,5,0,2" />
-                                </HorizontalLayout>
-                                <VerticalLayout  />
-                            </HorizontalLayout>
-                        </TreeNode>
-                        <TreeNode height="35">
-                            <HorizontalLayout height="35" width="250" float="true" pos="0,0,250,35">
-                                <VerticalLayout />
-                                <HorizontalLayout width="100" padding="0,5,0,5">
-                                    <Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
-                                    <Label name="itemText3" text="已删除" padding="10,5,0,2" />
-                                </HorizontalLayout>
-                                <VerticalLayout  />
-                            </HorizontalLayout>
-                        </TreeNode>
-                    </TreeNode>
-                </TreeView>
-            </ListContainerElement>
-        </List>
+                        <VerticalLayout  />
+                    </HorizontalLayout>
+                </TreeNode>
+                <TreeNode height="35">
+                    <HorizontalLayout height="35" width="250" float="true" pos="0,0,250,35">
+                        <VerticalLayout />
+                        <HorizontalLayout width="100" padding="0,5,0,5">
+                            <Control name="itemImage7" width="25"  />
+                            <Label name="itemText7" text="已删除" padding="10,5,0,2" />
+                        </HorizontalLayout>
+                        <VerticalLayout  />
+                    </HorizontalLayout>
+                </TreeNode>
+            </TreeNode>
+        </TreeView>
+        <!-- </List> -->
+        <HorizontalLayout />
         <HorizontalLayout height="40" inset="0,0,0,20">
             <VerticalLayout width="100">
                 <HorizontalLayout padding="20,0,20,0">
