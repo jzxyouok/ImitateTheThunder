@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <!-- 整体布局结构 -->
 <Window size="750,80">
-    <VerticalLayout bkcolor="F8F8F8F8" bordersize="0,0,0,2" bordercolor="FF000000">
-        <HorizontalLayout height="30">
+    <VerticalLayout bkcolor="FFF7F7F7" bordersize="0,0,0,2" bordercolor="FF000000">
+        <HorizontalLayout height="10" />
+        <HorizontalLayout height="15">
             <VerticalLayout />
-            <VerticalLayout width="77">
+            <HorizontalLayout width="149">
                 <!-- 右边三个控件所占的宽度-->
-                <Button name="minbtn" tooltip="最小化" float="true" pos="0,5,22,24" width="23" normalimage=" file='SysBtn\MinNormal.bmp' " hotimage=" file='SysBtn\MinFocus.bmp' " pushedimage=" file='SysBtn\MinFocus.bmp' "/>
-                <Button name="maxbtn" tooltip="最大化" float="true" pos="22,5,44,24" width="23" normalimage=" file='SysBtn\MaxNormal.bmp' " hotimage=" file='SysBtn\MaxFocus.bmp' " pushedimage=" file='SysBtn\MaxFocus.bmp' " />
-                <Button name="restorebtn" visible="false" tooltip="还原" float="true" pos="22,5,44,24" width="23" normalimage=" file='SysBtn\StoreNormal.bmp' " hotimage=" file='SysBtn\StoreFocus.bmp' " pushedimage=" file='SysBtn\StoreFocus.bmp' " />
-                <Button name="closebtn" tooltip="关闭" float="true" pos="44,5,74,24" width="28" normalimage=" file='SysBtn\CloseNormal.bmp' " hotimage=" file='SysBtn\CloseFocus.bmp' " pushedimage=" file='SysBtn\CloseFocus.bmp' "/>
-            </VerticalLayout>
+                <!-- <Button name="minbtn" tooltip="最小化" float="true" pos="0,5,22,24" width="23" normalimage=" file='SysBtn\MinNormal.bmp' " hotimage=" file='SysBtn\MinFocus.bmp' " pushedimage=" file='SysBtn\MinFocus.bmp' "/><Button name="maxbtn" tooltip="最大化" float="true" pos="22,5,44,24" width="23" normalimage=" file='SysBtn\MaxNormal.bmp' " hotimage=" file='SysBtn\MaxFocus.bmp' " pushedimage=" file='SysBtn\MaxFocus.bmp' " /><Button name="restorebtn" visible="false" tooltip="还原" float="true" pos="22,5,44,24" width="23" normalimage=" file='SysBtn\StoreNormal.bmp' " hotimage=" file='SysBtn\StoreFocus.bmp' " pushedimage=" file='SysBtn\StoreFocus.bmp' " /><Button name="closebtn" tooltip="关闭" float="true" pos="44,5,74,24" width="28" normalimage=" file='SysBtn\CloseNormal.bmp' " hotimage=" file='SysBtn\CloseFocus.bmp' " pushedimage=" file='SysBtn\CloseFocus.bmp' "/> -->
+                <Button name="skinbtn" width="16" normalimage="file='img\sys.png' source='0,0,16,15'  " />
+                <Control width="26" bkimage=" file='img\sys.png' source='16,0,41,15' "/>
+                <Button name="settingbtn" width="15" normalimage="file='img\sys.png' source='41,0,56,15'  " />
+                <VerticalLayout width="12" />
+                <Button name="minbtn" width="15" normalimage="file='img\sys.png' source='69,0,84,15'  " />
+                <VerticalLayout width="12" />
+                <Button name="maxbtn" width="15" normalimage="file='img\sys.png' source='96,0,111,15'  " />
+                <VerticalLayout width="12" />
+                <Button name="closebtn" width="15" normalimage="file='img\sys.png' source='124,0,139,15'  " />
+            </HorizontalLayout>
+            <VerticalLayout width="5" />
         </HorizontalLayout>
-        <HorizontalLayout padding="10,10,0,9" bkcolor="FFEEEEEE">
-            <Button nama="newDownload" width="70" text="新建" bkimage="file='img/Icon_4.ico' dest='0,0,30,30'" align="right"  />
-        
+        <HorizontalLayout padding="10,10,0,9">
+            <Button width="70" height="30" bkimage="file='img/caption.png' source='0,0,70,30'" />
+            <Control width="15" height="30" bkimage="file='img/caption.png' source='70,0,85,30'" />
+            <Button width="30" height="30" bkimage="file='img/caption.png' source='85,0,115,30'" />
+            <Button width="30" height="30" bkimage="file='img/caption.png' source='115,0,145,30'" />
+            <Button width="30" height="30" bkimage="file='img/caption.png' source='145,0,175,30'" />
+            <Control width="15" height="30" bkimage="file='img/caption.png' source='175,0,190,30'" />
+            <Button width="30" height="30" bkimage="file='img/caption.png' source='190,0,220,30'" />
+            <Button width="15" height="30" bkimage="file='img/caption.png' source='220,0,235,30'" />
+            <Button width="30" height="30" bkimage="file='img/caption.png' source='235,0,265,30'" />
+            <Button width="30" height="30" bkimage="file='img/caption.png' source='265,0,295,30'" />
+            <Control width="25" height="30" bkimage="file='img/caption.png' source='295,0,320,30'" />
+            <Button width="30" height="30" bkimage="file='img/caption.png' source='320,0,350,30'" />
+            <Button width="30" height="30" bkimage="file='img/caption.png' source='350,0,380,30'" />
+            <Control />
         </HorizontalLayout>
-
         <HorizontalLayout height="1" bkcolor="FFC7C7C7" />
     </VerticalLayout>
 </Window>
