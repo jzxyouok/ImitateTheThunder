@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <!-- 整体布局结构 -->
-<Window size="1000,650" caption="0,0,0,80" sizebox="4,4,4,4">
+<Window size="960,700" caption="0,0,0,80" sizebox="4,4,4,4">
     <HorizontalLayout>
-        <VerticalLayout width="250">
+        <VerticalLayout width="208">
             <LeftPane />
         </VerticalLayout>
         <VerticalLayout>

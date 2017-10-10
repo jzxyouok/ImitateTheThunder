@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <!-- 整体布局结构 -->
-<Window size="250,650">
+<Window size="208,650">
     <Font id="0" name="leftPaneItemFont" size="15" bold="true" />
     <VerticalLayout bkcolor="FF3B4751">
         <VerticalLayout height="90">
-            <HorizontalLayout height="70" padding="25,10,25,10">
+            <HorizontalLayout height="70" padding="10,10,25,10">
                 <Control name="headGif" width="70" bkimage="img/head.png" padding="10,0,10,0" />
                 <VerticalLayout width="100" padding="10,0,0,0">
                     <HorizontalLayout />
@@ -15,9 +15,9 @@
         </VerticalLayout>
         <Label name="splitLine" height="20" padding="30,0,30,10" text="___________________________________"/>
         <!-- <List name="optionPane" header="hidden" hieght="140" itemfont="0" itemtextcolor="FF8DA09A" itemselectedtextcolor="FF51A599" itemhottextcolor="FFFEFEFE" itemhotbkcolor="FF313A42" itemselectedbkcolor="FF252C32"> -->
-        <TreeView name="leftTree" width="250" visiblefolderbtn="false" visiblecheckbtn="false" itemfont="0" itemtextcolor="FF8DA09A" itemselectedtextcolor="FF51A599" itemhottextcolor="FFFEFEFE" itemhotbkcolor="FF313A42" itemselectedbkcolor="FF252C32">
-            <TreeNode height="35" width="250">
-                <HorizontalLayout width="250">
+        <TreeView name="leftTree" width="208" visiblefolderbtn="false" visiblecheckbtn="false" itemfont="0" itemtextcolor="FF8DA09A" itemselectedtextcolor="FF51A599" itemhottextcolor="FFFEFEFE" itemhotbkcolor="FF313A42" itemselectedbkcolor="FF252C32">
+            <TreeNode height="35" width="208">
+                <HorizontalLayout width="208">
                     <VerticalLayout />
                     <HorizontalLayout width="100" padding="0,5,0,5">
                         <Control name="itemImage1" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
@@ -26,8 +26,8 @@
                     <VerticalLayout />
                 </HorizontalLayout>
             </TreeNode>
-            <TreeNode height="35" width="250">
-                <HorizontalLayout width="250">
+            <TreeNode height="35" width="208">
+                <HorizontalLayout width="208">
                     <VerticalLayout />
                     <HorizontalLayout width="100" padding="0,5,0,5">
                         <Control name="itemImage2" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
@@ -36,8 +36,8 @@
                     <VerticalLayout />
                 </HorizontalLayout>
             </TreeNode>
-            <TreeNode height="35" width="250">
-                <HorizontalLayout width="250">
+            <TreeNode height="35" width="208">
+                <HorizontalLayout width="208">
                     <VerticalLayout />
                     <HorizontalLayout width="100" padding="0,5,0,5">
                         <Control name="itemImage3" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
@@ -46,8 +46,8 @@
                     <VerticalLayout />
                 </HorizontalLayout>
             </TreeNode>
-            <TreeNode height="35" width="250">
-                <HorizontalLayout width="250">
+            <TreeNode height="35" width="208">
+                <HorizontalLayout width="208">
                     <VerticalLayout />
                     <HorizontalLayout width="100" padding="0,5,0,5">
                         <Control name="itemImage4" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
@@ -56,8 +56,8 @@
                     <VerticalLayout />
                 </HorizontalLayout>
             </TreeNode>
-            <TreeNode width="250" height="35">
-                <HorizontalLayout width="250" height="35">
+            <TreeNode width="208" height="35">
+                <HorizontalLayout width="208" height="35">
                     <VerticalLayout />
                     <HorizontalLayout width="100" padding="0,5,0,5">
                         <Control name="itemImage5" width="25" bkimage="file='img/radio_un.png' dest='0,0,25,25'" />
@@ -66,7 +66,7 @@
                     <VerticalLayout  />
                 </HorizontalLayout>
                 <TreeNode height="35">
-                    <HorizontalLayout height="35" width="250" float="true" pos="0,0,250,35">
+                    <HorizontalLayout height="35" width="208" float="true" pos="0,0,208,35">
                         <VerticalLayout />
                         <HorizontalLayout width="100" padding="0,5,0,5">
                             <Control name="itemImage6" width="25"  />
@@ -76,7 +76,7 @@
                     </HorizontalLayout>
                 </TreeNode>
                 <TreeNode height="35">
-                    <HorizontalLayout height="35" width="250" float="true" pos="0,0,250,35">
+                    <HorizontalLayout height="35" width="208" float="true" pos="0,0,208,35">
                         <VerticalLayout />
                         <HorizontalLayout width="100" padding="0,5,0,5">
                             <Control name="itemImage7" width="25"  />
@@ -90,7 +90,7 @@
         <!-- </List> -->
         <HorizontalLayout />
         <HorizontalLayout height="40" inset="0,0,0,20">
-            <VerticalLayout width="100">
+            <VerticalLayout width="95">
                 <HorizontalLayout padding="20,0,20,0">
                     <Control name="itemImage10" width="20" height="20" bkimage="file='img/radio_un.png' dest='0,0,20,20'" />
                     <Label name="itemText10" text="应用" padding="10,2,0,0" />
@@ -99,7 +99,7 @@
             <VerticalLayout width="5">
                 <Label text="|" height="20" />
             </VerticalLayout>
-            <VerticalLayout width="115">
+            <VerticalLayout>
                 <HorizontalLayout padding="20,0,20,0">
                     <Control name="itemImage10" width="20" height="20" bkimage="file='img/radio_un.png' dest='0,0,20,20'" />
                     <Label name="itemText10" text="消息中心" padding="2,2,0,0" />
